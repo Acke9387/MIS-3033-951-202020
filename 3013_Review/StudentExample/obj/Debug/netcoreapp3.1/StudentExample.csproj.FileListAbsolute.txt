@@ -1,0 +1,14 @@
+C:\Users\acke9387\source\repos\3013_Review\StudentExample\bin\Debug\netcoreapp3.1\StudentExample.exe
+C:\Users\acke9387\source\repos\3013_Review\StudentExample\bin\Debug\netcoreapp3.1\studentDataRandom100Rows.csv
+C:\Users\acke9387\source\repos\3013_Review\StudentExample\bin\Debug\netcoreapp3.1\StudentExample.deps.json
+C:\Users\acke9387\source\repos\3013_Review\StudentExample\bin\Debug\netcoreapp3.1\StudentExample.runtimeconfig.json
+C:\Users\acke9387\source\repos\3013_Review\StudentExample\bin\Debug\netcoreapp3.1\StudentExample.runtimeconfig.dev.json
+C:\Users\acke9387\source\repos\3013_Review\StudentExample\bin\Debug\netcoreapp3.1\StudentExample.dll
+C:\Users\acke9387\source\repos\3013_Review\StudentExample\bin\Debug\netcoreapp3.1\StudentExample.pdb
+C:\Users\acke9387\source\repos\3013_Review\StudentExample\obj\Debug\netcoreapp3.1\StudentExample.csprojAssemblyReference.cache
+C:\Users\acke9387\source\repos\3013_Review\StudentExample\obj\Debug\netcoreapp3.1\StudentExample.AssemblyInfoInputs.cache
+C:\Users\acke9387\source\repos\3013_Review\StudentExample\obj\Debug\netcoreapp3.1\StudentExample.AssemblyInfo.cs
+C:\Users\acke9387\source\repos\3013_Review\StudentExample\obj\Debug\netcoreapp3.1\StudentExample.csproj.CoreCompileInputs.cache
+C:\Users\acke9387\source\repos\3013_Review\StudentExample\obj\Debug\netcoreapp3.1\StudentExample.dll
+C:\Users\acke9387\source\repos\3013_Review\StudentExample\obj\Debug\netcoreapp3.1\StudentExample.pdb
+C:\Users\acke9387\source\repos\3013_Review\StudentExample\obj\Debug\netcoreapp3.1\StudentExample.genruntimeconfig.cache
