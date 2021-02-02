@@ -5,8 +5,18 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF_FirstApplication"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="My First WPF Application (not really)" Height="548" Width="651">
+    <Window.Background>
+        <ImageBrush ImageSource="https://www.sheepadoodles.org/uploads/8/2/1/7/82172392/3675770.jpg?603" Stretch="Fill"/>
+    </Window.Background>
     <Grid>
+        <Label x:Name="lblTitle" Content="My First WPF Application!" HorizontalAlignment="Left" Margin="122,25,0,0" VerticalAlignment="Top" FontSize="48" Width="610" Foreground="#FFD40D0D"/>
+        <Button x:Name="btnSubmit" Content="Click Me please!" Margin="232,301,232,70" Click="btnSubmit_Click" IsDefault="True"/>
+        <Label x:Name="lblMessage" Content="Label" HorizontalAlignment="Left" Margin="103,116,0,0" VerticalAlignment="Top" Foreground="#FFD40D0D"/>
+        <Label x:Name="lblMessage_Copy" Content="Favorite #:" HorizontalAlignment="Left" Margin="103,170,0,0" VerticalAlignment="Top" Foreground="#FFD40D0D"/>
+        <TextBox x:Name="txtFavoriteNumber" HorizontalAlignment="Left" Margin="173,174,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="lblOutput" Content="" HorizontalAlignment="Left" Margin="135,201,0,0" VerticalAlignment="Top" Foreground="#FFD40D0D"/>
+        <Button x:Name="btnClose" Content="Don't Click Me!" Margin="74,364,436,75"  IsCancel="True" Click="btnClose_Click"/>
 
     </Grid>
 </Window>
