@@ -38,6 +38,8 @@ namespace WPF_FirstApplication
             string answer = txtFavoriteNumber.Text;
             double result = Convert.ToDouble(answer);
 
+
+            
             //if (result == 5)
             //{
             //    MessageBox.Show("result is equal to 5!");
@@ -68,6 +70,16 @@ namespace WPF_FirstApplication
         {
             MessageBox.Show("Hahaha you clicked me!");
             Environment.Exit(0);
+        }
+
+        private void btnSubmit_MouseEnter(object sender, MouseEventArgs e)
+        {
+
+        }
+
+        private void btnSubmit_MouseLeave(object sender, MouseEventArgs e)
+        {
+
         }
     }
 }
