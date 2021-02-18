@@ -30,8 +30,12 @@ namespace WPF_Web_Browser
             string query = txtQuery.Text;
 
             MyWebBrowserWindow google = new MyWebBrowserWindow();
+            
+            // First way to do it
             google.Query = query;
             google.Search();
+
+            // Second way to do it
             google.Search(query);
             google.ShowDialog();
 

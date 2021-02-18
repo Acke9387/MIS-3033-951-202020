@@ -20,7 +20,7 @@ namespace WPF_Web_Browser
     /// </summary>
     public partial class MyWebBrowserWindow : Window
     {
-        public string Query { get; set; }
+        public string Query { get; set; } // First way
 
         public MyWebBrowserWindow()
         {
@@ -29,12 +29,14 @@ namespace WPF_Web_Browser
             webGoogle.Navigate($"https://www.google.com");
         }
 
+        // Second way
         public void Search(string q)
         {
             Query = q;
             webGoogle.Navigate($"https://www.google.com/search?q={q}");
         }
 
+        //First way
         public void Search()
         {
             webGoogle.Navigate($"https://www.google.com/search?q={Query}");
