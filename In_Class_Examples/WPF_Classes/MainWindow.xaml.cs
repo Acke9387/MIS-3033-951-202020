@@ -36,6 +36,9 @@ namespace WPF_Classes
             //myPet.Breed = txtBreed.Text;
 
             lstPets.Items.Add(myPet);
+            txtBreed.Clear();
+            txtName.Clear();
+            txtPic.Clear();
         }
 
         private void lstPets_SelectionChanged(object sender, SelectionChangedEventArgs e)
