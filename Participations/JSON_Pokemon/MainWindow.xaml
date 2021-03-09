@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <ListBox x:Name="lstPokemon" Margin="0,145,227,0"/>
+        <ListBox x:Name="lstPokemon" Margin="0,145,227,0" MouseDoubleClick="lstPokemon_MouseDoubleClick"/>
 
     </Grid>
 </Window>

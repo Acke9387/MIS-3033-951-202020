@@ -34,14 +34,31 @@ namespace JSON_Pokemon
                 string json = client.GetStringAsync(url).Result;
 
                 api = JsonConvert.DeserializeObject<AllPokemonAPI>(json);
-                
+
             }
 
-            foreach (var item in api.results.OrderBy(x => x.name).ToList())
+            foreach (ResultObject item in api.results.OrderBy(x => x.name).ToList())
             {
                 lstPokemon.Items.Add(item);
             }
-            
+
+        }
+
+        private void lstPokemon_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+            ResultObject selectedPokemon = (ResultObject)lstPokemon.SelectedItem;
+            PokemonInfoAPI info;
+            using (var client = new HttpClient())
+            {
+                var json = client.GetStringAsync(selectedPokemon.url).Result;
+
+                info = JsonConvert.DeserializeObject<PokemonInfoAPI>(json);
+            }
+
+            PokemonInfoWindow wnd = new PokemonInfoWindow();
+            wnd.PopulateWindow(info);
+            wnd.ShowDialog();
+
         }
     }
 }
