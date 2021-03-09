@@ -45,7 +45,10 @@ namespace JSON_Pokemon
             }
             else
             {
-                imgPokemon.Source = new BitmapImage(new Uri(Info.SquigglyWorm.back_default));
+                if (string.IsNullOrWhiteSpace(Info.SquigglyWorm.back_default) == false)
+                {
+                    imgPokemon.Source = new BitmapImage(new Uri(Info.SquigglyWorm.back_default)); 
+                }
                 //ShouldIShowTheFront = true;
             }
             ShouldIShowTheFront = !ShouldIShowTheFront;
