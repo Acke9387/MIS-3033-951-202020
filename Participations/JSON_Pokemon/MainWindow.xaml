@@ -6,8 +6,11 @@
         xmlns:local="clr-namespace:JSON_Pokemon"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
+    <Window.Background>
+        <ImageBrush ImageSource="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuaPteLgr2XrIedVRp5AGoDH9otkmkYP56wgbFTCb9Sgsfsy_BRkCZOIGt1mrFR6MFD8fU4uGN&amp;usqp=CAc"/>
+    </Window.Background>
     <Grid>
-        <ListBox x:Name="lstPokemon" Margin="0,145,227,0" MouseDoubleClick="lstPokemon_MouseDoubleClick"/>
+        <ListBox x:Name="lstPokemon" Margin="0,145,227,0" MouseDoubleClick="lstPokemon_MouseDoubleClick" Background="#54FFFFFF"/>
 
     </Grid>
 </Window>
